@@ -8,10 +8,6 @@
  * @updateUrl https://raw.githubusercontent.com/wiryfuture/IncomingVoiceNormaliser/master/IncomingVoiceNormaliser.plugin.js
  */
 
-let IncomingVoiceNormaliser = () => {
-
-}
-
 // On user click of settings button for plugin
 let getSettingsPanel = () => {
 
@@ -40,6 +36,7 @@ let observer = (changes) => {
 
 }
 
+// On user navigation (changing channel/server/friends etc)
 let onSwitch = () => {
 
 }
