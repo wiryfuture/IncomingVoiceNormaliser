@@ -4,6 +4,8 @@
  * @description Normalise the volume of other people in voice channels so perceieved volume is the same.
  * @author wiryfuture
  * @authorLink https://github.com/wiryfuture
+ * @source https://github.com/wiryfuture/IncomingVoiceNormaliser
+ * @updateUrl https://raw.githubusercontent.com/wiryfuture/IncomingVoiceNormaliser/master/IncomingVoiceNormaliser.plugin.js
  */
 
 let IncomingVoiceNormaliser = () => {
@@ -39,6 +41,5 @@ let observer = (changes) => {
 }
 
 let onSwitch = () => {
-    
-}
 
+}
