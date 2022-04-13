@@ -8,35 +8,41 @@
  * @updateUrl https://raw.githubusercontent.com/wiryfuture/IncomingVoiceNormaliser/master/IncomingVoiceNormaliser.plugin.js
  */
 
-// On user click of settings button for plugin
-let getSettingsPanel = () => {
+module.exports = () => {
+    let IncomingVoiceNormaliser = () => {
 
-}
+    }
 
-// On pllugin load (regardless of enable/disable state)
-let load = () => {
+    // On user click of settings button for plugin
+    let getSettingsPanel = () => {
 
-}
+    }
 
-// On plugin enable/load
-let start = () => {
+    // On pllugin load (regardless of enable/disable state)
+    let load = () => {
 
-}
+    }
 
-// On plugin disable
-let stop = () => {
+    // On plugin enable/load
+    let start = () => {
 
-}
+    }
 
-/** On mutations of document
- * "What are mutations/observers?" => https://developer.mozilla.org/en-US/docs/Web/API/Mutation/Observer
- * changes: MutationRecord
-*/
-let observer = (changes) => {
+    // On plugin disable
+    let stop = () => {
 
-}
+    }
 
-// On user navigation (changing channel/server/friends etc)
-let onSwitch = () => {
+    /** On mutations of document
+     * "What are mutations/observers?" => https://developer.mozilla.org/en-US/docs/Web/API/Mutation/Observer
+     * changes: MutationRecord
+    */
+    let observer = (changes) => {
 
+    }
+
+    // On user navigation (changing channel/server/friends etc)
+    let onSwitch = () => {
+
+    }
 }
